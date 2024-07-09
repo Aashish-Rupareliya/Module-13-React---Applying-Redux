@@ -1,0 +1,7 @@
+What is Pure Component? When to use Pure Component over Component?
+A PureComponent in React is similar to a Component but implements a shallow comparison of props and state to determine if a re-render is necessary. A PureComponent automatically performs a shallow comparison on both props and state, and if neither has changed, it prevents the component from re-rendering.
+
+You should use PureComponent when:
+
+Your component's render output is purely determined by props and state.
+You want to optimize performance by preventing unnecessary re-renders.

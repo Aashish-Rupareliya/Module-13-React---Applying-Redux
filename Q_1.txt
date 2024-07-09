@@ -1,0 +1,6 @@
+What is Redux?
+Redux is a state management library for JavaScript applications, commonly used with React for managing the state of an application. It provides a predictable state container that helps you manage the application state in a single place, making it easier to debug and test. Redux is based on three principles:
+
+Single source of truth: The state of your whole application is stored in an object tree within a single store.
+State is read-only: The only way to change the state is to emit an action, an object describing what happened.
+Changes are made with pure functions: To specify how the state tree is transformed by actions, you write pure reducers.

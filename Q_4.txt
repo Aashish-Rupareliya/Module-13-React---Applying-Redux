@@ -1,0 +1,3 @@
+What is the second argument that can optionally be passed to setState and what is its purpose?
+The second argument to setState is a callback function that gets executed once the setState operation is completed and the component has re-rendered. This is useful for performing any action after the state has been updated and the component is in sync with the new state.
+
